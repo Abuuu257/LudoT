@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="95" skipped="0" failures="0" errors="0" time="0.356" hostname="DESKTOP-8H98A7F" timestamp="2026-10-04T14:15:50">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="\"/>
+<property name="java.class.path" value="C:\CCCP\LudoT-CB012978\\lib\junit-platform-console-standalone.jar"/>
+<property name="java.class.version" value="71.0"/>
+<property name="java.home" value="C:\Program Files\Java\jdk-27"/>
+<property name="java.io.tmpdir" value="C:\Users\Abuuu\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk-27\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Abuuu\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Abuuu\AppData\Local\Programs\Python\Python312\;C:\Users\Abuuu\AppData\Local\Programs\Python\Launcher\;C:\Users\Abuuu\AppData\Local\Microsoft\WindowsApps;C:\Users\Abuuu\AppData\Local\Programs\Antigravity IDE\bin;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="27+35-2325"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="27"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="27"/>
+<property name="java.version.date" value="2026-09-15"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="27"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="27+35-2325"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="native.encoding" value="Cp1252"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 11"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="stderr.encoding" value="Cp1252"/>
+<property name="stdin.encoding" value="Cp1252"/>
+<property name="stdout.encoding" value="Cp1252"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-27\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="C:\CCCP\LudoT-CB012978\\lib\junit-platform-console-standalone.jar execute --classpath C:\CCCP\LudoT-CB012978\\out;C:\CCCP\LudoT-CB012978\\test-out --scan-classpath --reports-dir C:\CCCP\LudoT-CB012978\\test-results"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\CCCP\LudoT-CB012978"/>
+<property name="user.home" value="C:\Users\Abuuu"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="Abuuu"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="Asia/Colombo"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="mysteryCellNotActiveAtStart()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:mysteryCellNotActiveAtStart()]
+display-name: Mystery cell not active at game start
+]]></system-out>
+</testcase>
+<testcase name="canEnterHomeStraightAfterCaptureClockwise()" classname="com.apiit.ludot.domain.PieceTest" time="0.021">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:canEnterHomeStraightAfterCaptureClockwise()]
+display-name: Piece can enter home straight after 1 capture and passing approach (clockwise)
+]]></system-out>
+</testcase>
+<testcase name="auraEffectExpiresAfterFourRounds()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:auraEffectExpiresAfterFourRounds()]
+display-name: Aura effect expires after 4 rounds
+]]></system-out>
+</testcase>
+<testcase name="boardRegistryAlphaCellPosition()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:boardRegistryAlphaCellPosition()]
+display-name: [Singleton] BoardRegistry alpha cell is at position 8
+]]></system-out>
+</testcase>
+<testcase name="yellowMovesPieceClosestToHome()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:yellowMovesPieceClosestToHome()]
+display-name: [Yellow] Moves piece closest to home when no spawn available
+]]></system-out>
+</testcase>
+<testcase name="boardDetectsPiecesOnTrackAfterPlacement()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:boardDetectsPiecesOnTrackAfterPlacement()]
+display-name: Board detects pieces after one is placed
+]]></system-out>
+</testcase>
+<testcase name="newPieceShouldStartInBaseState()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:newPieceShouldStartInBaseState()]
+display-name: New piece starts in Base state
+]]></system-out>
+</testcase>
+<testcase name="nullStrategyReturnsNullMoveWhenNoCandidates()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:nullStrategyReturnsNullMoveWhenNoCandidates()]
+display-name: Null strategy returns NullMove when no candidates
+]]></system-out>
+</testcase>
+<testcase name="nullMoveHasNoMove()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:nullMoveHasNoMove()]
+display-name: [Null Object] NullMove returns a decision with hasMove=false
+]]></system-out>
+</testcase>
+<testcase name="getBlockadeAtReturnsNullWhenNone()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:getBlockadeAtReturnsNullWhenNone()]
+display-name: getBlockadeAt returns null when no blockade
+]]></system-out>
+</testcase>
+<testcase name="gatewayContainsCompleteGameLog()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.009">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:gatewayContainsCompleteGameLog()]
+display-name: [Integration] Gateway logs contain game start and game over
+]]></system-out>
+</testcase>
+<testcase name="pieceReachesHomeWithExactRoll()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:pieceReachesHomeWithExactRoll()]
+display-name: Piece reaching Home with exact roll (Rule 10)
+]]></system-out>
+</testcase>
+<testcase name="restoreOriginalDirectionWorks()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:restoreOriginalDirectionWorks()]
+display-name: Restoring original direction after direction change
+]]></system-out>
+</testcase>
+<testcase name="homeStraightCellNamingConvention()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:homeStraightCellNamingConvention()]
+display-name: Home straight cell ID matches naming convention
+]]></system-out>
+</testcase>
+<testcase name="yellowStartingXAtCell0()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:yellowStartingXAtCell0()]
+display-name: Track cell 0 is Yellow's starting X
+]]></system-out>
+</testcase>
+<testcase name="gameOverEventPublishedAtEnd()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.018">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:gameOverEventPublishedAtEnd()]
+display-name: [Integration] GameOverEvent is published when winner found
+]]></system-out>
+</testcase>
+<testcase name="counterClockwiseRequiresTwoApproachPasses()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:counterClockwiseRequiresTwoApproachPasses()]
+display-name: Counter-clockwise piece requires 2 approach passes to enter home straight (Rule T-1)
+]]></system-out>
+</testcase>
+<testcase name="resetToBaseRestoresAllFields()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:resetToBaseRestoresAllFields()]
+display-name: Reset to base restores all fields to initial values
+]]></system-out>
+</testcase>
+<testcase name="boardHasNoPiecesOnTrackInitially()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:boardHasNoPiecesOnTrackInitially()]
+display-name: Board detects no pieces on track initially
+]]></system-out>
+</testcase>
+<testcase name="energizedAuraDoublesMovement()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:energizedAuraDoublesMovement()]
+display-name: Energized aura doubles effective movement
+]]></system-out>
+</testcase>
+<testcase name="pieceInBaseCannotMove()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:pieceInBaseCannotMove()]
+display-name: Piece in base cannot move
+]]></system-out>
+</testcase>
+<testcase name="normalizeTrackIndexHandlesNegatives()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:normalizeTrackIndexHandlesNegatives()]
+display-name: Normalize track index works for negative numbers
+]]></system-out>
+</testcase>
+<testcase name="cannotEnterHomeStraightWithoutCapture()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:cannotEnterHomeStraightWithoutCapture()]
+display-name: Piece cannot enter home straight without any capture (Rule T-7)
+]]></system-out>
+</testcase>
+<testcase name="greenAvoidsBreakingBlockade()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:greenAvoidsBreakingBlockade()]
+display-name: [Green] Avoids breaking blockade when other moves available
+]]></system-out>
+</testcase>
+<testcase name="inMemoryGatewayRecordsTurnLogs()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:inMemoryGatewayRecordsTurnLogs()]
+display-name: [Gateway] InMemoryGateway records game start and turn logs
+]]></system-out>
+</testcase>
+<testcase name="counterClockwiseWrapAround()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:counterClockwiseWrapAround()]
+display-name: Counter-clockwise wrap from cell 2 by 4 steps reaches cell 50
+]]></system-out>
+</testcase>
+<testcase name="firstPlayerChosenEventPublished()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:firstPlayerChosenEventPublished()]
+display-name: [Integration] FirstPlayerChosenEvent is published after initial rolls
+]]></system-out>
+</testcase>
+<testcase name="mixedColourCellIsNotBlockade()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:mixedColourCellIsNotBlockade()]
+display-name: Cell with mixed colours is not a blockade
+]]></system-out>
+</testcase>
+<testcase name="redPrioritisesCapture()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:redPrioritisesCapture()]
+display-name: [Red] Prioritises capturing opponent over other moves
+]]></system-out>
+</testcase>
+<testcase name="briefingExpiresAfterFourRounds()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:briefingExpiresAfterFourRounds()]
+display-name: Briefing expires after 4 decrements, piece can move again
+]]></system-out>
+</testcase>
+<testcase name="strategyFactoryHandlesNullColor()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:strategyFactoryHandlesNullColor()]
+display-name: [Factory] StrategyFactory returns NullStrategy for null colour
+]]></system-out>
+</testcase>
+<testcase name="twoSameColourPiecesFormBlockade()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:twoSameColourPiecesFormBlockade()]
+display-name: Two pieces of same colour on same cell form blockade (Rule T-3)
+]]></system-out>
+</testcase>
+<testcase name="spawnPieceCommandPlacesPieceOnStartX()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:spawnPieceCommandPlacesPieceOnStartX()]
+display-name: [Command] SpawnPieceCommand places piece on start X and publishes event
+]]></system-out>
+</testcase>
+<testcase name="inMemoryGatewayRecordsGameOver()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:inMemoryGatewayRecordsGameOver()]
+display-name: [Gateway] InMemoryGateway records game over with winner
+]]></system-out>
+</testcase>
+<testcase name="fullGameRunProducesWinner()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:fullGameRunProducesWinner()]
+display-name: [Integration] Full game run completes with a winner
+]]></system-out>
+</testcase>
+<testcase name="blueCyclesPiecesInOrder()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:blueCyclesPiecesInOrder()]
+display-name: [Blue] Cycles piece selection in order B1->B2->B3->B4
+]]></system-out>
+</testcase>
+<testcase name="boardHas52TrackCells()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:boardHas52TrackCells()]
+display-name: Board has 52 track cells after initialization
+]]></system-out>
+</testcase>
+<testcase name="counterClockwiseMovement3Steps()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:counterClockwiseMovement3Steps()]
+display-name: Counter-clockwise movement from cell 10 by 3 steps reaches cell 7
+]]></system-out>
+</testcase>
+<testcase name="threePiecesFormBlockade()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:threePiecesFormBlockade()]
+display-name: Three pieces of same colour on same cell also form blockade
+]]></system-out>
+</testcase>
+<testcase name="singlePieceIsNotBlockade()" classname="com.apiit.ludot.domain.BoardTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:singlePieceIsNotBlockade()]
+display-name: Single piece does not form a blockade
+]]></system-out>
+</testcase>
+<testcase name="subscribedListenerReceivesEvents()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:subscribedListenerReceivesEvents()]
+display-name: [Observer] Subscribed listener receives published events
+]]></system-out>
+</testcase>
+<testcase name="despawnMysteryCellClearsFlag()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:despawnMysteryCellClearsFlag()]
+display-name: Despawning mystery cell clears it from track cell
+]]></system-out>
+</testcase>
+<testcase name="spawnPieceSetsDirectionAndTrackIndex()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:spawnPieceSetsDirectionAndTrackIndex()]
+display-name: Spawning a piece moves it to starting X with given direction
+]]></system-out>
+</testcase>
+<testcase name="distanceCalculationCounterClockwise()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:distanceCalculationCounterClockwise()]
+display-name: Distance calculation counter-clockwise from 10 to 0 is 10
+]]></system-out>
+</testcase>
+<testcase name="trackIndexWrapsAround()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:trackIndexWrapsAround()]
+display-name: Track index wraps around at 52 correctly
+]]></system-out>
+</testcase>
+<testcase name="approachCellsCorrectlyAssigned()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:approachCellsCorrectlyAssigned()]
+display-name: Approach cells are correctly assigned
+]]></system-out>
+</testcase>
+<testcase name="overshootHomeStraightIsIllegal()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:overshootHomeStraightIsIllegal()]
+display-name: Overshoot home straight is illegal (Rule 10)
+]]></system-out>
+</testcase>
+<testcase name="blockMoveDistanceDividedBySize()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:blockMoveDistanceDividedBySize()]
+display-name: Block move distance is dice / block size (Rule T-4)
+]]></system-out>
+</testcase>
+<testcase name="greenStartingXAtCell39()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:greenStartingXAtCell39()]
+display-name: Track cell 39 is Green's starting X
+]]></system-out>
+</testcase>
+<testcase name="nullStrategyReturnsMoveWhenAvailable()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:nullStrategyReturnsMoveWhenAvailable()]
+display-name: Null strategy returns first available move
+]]></system-out>
+</testcase>
+<testcase name="winnerAllPiecesInHome()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.022">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:winnerAllPiecesInHome()]
+display-name: [Integration] Winner's pieces are all in home at game end
+]]></system-out>
+</testcase>
+<testcase name="normalMovementNoAuraModification()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:normalMovementNoAuraModification()]
+display-name: Normal movement has no aura modification
+]]></system-out>
+</testcase>
+<testcase name="blockadeCannotCaptureSameColour()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:blockadeCannotCaptureSameColour()]
+display-name: Blockade cannot capture own colour
+]]></system-out>
+</testcase>
+<testcase name="manuallySpawnedMysteryCellIsActive()" classname="com.apiit.ludot.domain.BoardTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:manuallySpawnedMysteryCellIsActive()]
+display-name: Manually spawned mystery cell is active
+]]></system-out>
+</testcase>
+<testcase name="spawnWithCounterClockwiseDirectionWorks()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:spawnWithCounterClockwiseDirectionWorks()]
+display-name: Spawning counter-clockwise sets counter-clockwise direction
+]]></system-out>
+</testcase>
+<testcase name="nullCommandExecutesSafely()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:nullCommandExecutesSafely()]
+display-name: [Command] NullCommand executes without error and returns failed result
+]]></system-out>
+</testcase>
+<testcase name="unsubscribedListenerNoLongerReceivesEvents()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:unsubscribedListenerNoLongerReceivesEvents()]
+display-name: [Observer] Unsubscribed listener no longer receives events
+]]></system-out>
+</testcase>
+<testcase name="gameStartedEventPublishedAtStart()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.017">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:gameStartedEventPublishedAtStart()]
+display-name: [Integration] GameStartedEvent is published at game start
+]]></system-out>
+</testcase>
+<testcase name="greenPrioritisesCreatingBlockade()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:greenPrioritisesCreatingBlockade()]
+display-name: [Green] Prioritises creating a blockade on 6-roll
+]]></system-out>
+</testcase>
+<testcase name="yellowSpawnsFromBaseOnSix()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:yellowSpawnsFromBaseOnSix()]
+display-name: [Yellow] Spawns from base on 6-roll (empty base preference)
+]]></system-out>
+</testcase>
+<testcase name="redStartingXAtCell26()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:redStartingXAtCell26()]
+display-name: Track cell 26 is Red's starting X
+]]></system-out>
+</testcase>
+<testcase name="atLeastOneSpawnOccurs()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.02">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:atLeastOneSpawnOccurs()]
+display-name: [Integration] At least one PieceSpawnedEvent occurs during the game
+]]></system-out>
+</testcase>
+<testcase name="clockwiseWrapAround()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:clockwiseWrapAround()]
+display-name: Clockwise wrap-around from cell 50 by 4 steps reaches cell 2
+]]></system-out>
+</testcase>
+<testcase name="sickAuraHalvesMovement()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:sickAuraHalvesMovement()]
+display-name: Sick aura halves effective movement (min 1)
+]]></system-out>
+</testcase>
+<testcase name="boardRegistryBetaCellPosition()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:boardRegistryBetaCellPosition()]
+display-name: [Singleton] BoardRegistry beta cell is at position 26
+]]></system-out>
+</testcase>
+<testcase name="distanceCalculationClockwise()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:distanceCalculationClockwise()]
+display-name: Distance calculation clockwise from 0 to 10 is 10
+]]></system-out>
+</testcase>
+<testcase name="briefingStatePreventsMovement()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:briefingStatePreventsMovement()]
+display-name: Briefing state prevents movement
+]]></system-out>
+</testcase>
+<testcase name="sameBlockadeSizeCanCapture()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:sameBlockadeSizeCanCapture()]
+display-name: Blockade of same size can capture opponent blockade (Rule T-8)
+]]></system-out>
+</testcase>
+<testcase name="strategyFactoryCreatesCorrectStrategy()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:strategyFactoryCreatesCorrectStrategy()]
+display-name: [Factory] StrategyFactory creates correct strategy per colour
+]]></system-out>
+</testcase>
+<testcase name="diceRolledEventPublishedForEveryRoll()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.014">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:diceRolledEventPublishedForEveryRoll()]
+display-name: [Integration] DiceRolledEvent published for every roll in the game
+]]></system-out>
+</testcase>
+<testcase name="getBlockadeAtReturnBlockadeObject()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:getBlockadeAtReturnBlockadeObject()]
+display-name: getBlockadeAt returns Blockade when blockade exists
+]]></system-out>
+</testcase>
+<testcase name="pieceEntersHomeState()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:pieceEntersHomeState()]
+display-name: Reaching Home transitions piece to HomeState
+]]></system-out>
+</testcase>
+<testcase name="pieceEntersHomeStraightState()" classname="com.apiit.ludot.domain.PieceTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:pieceEntersHomeStraightState()]
+display-name: Moving to home straight changes state to HomeStraight
+]]></system-out>
+</testcase>
+<testcase name="blockadeDetectedWithTwoPiecesOfSameColour()" classname="com.apiit.ludot.domain.BoardTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:blockadeDetectedWithTwoPiecesOfSameColour()]
+display-name: Cell blockade detected when two same-colour pieces occupy cell
+]]></system-out>
+</testcase>
+<testcase name="blueStartingXAtCell13()" classname="com.apiit.ludot.domain.BoardTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:blueStartingXAtCell13()]
+display-name: Track cell 13 is Blue's starting X
+]]></system-out>
+</testcase>
+<testcase name="pieceCannotEnterHomeStraightWithoutCapture()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:pieceCannotEnterHomeStraightWithoutCapture()]
+display-name: Piece cannot enter home straight without capture (Rule T-7)
+]]></system-out>
+</testcase>
+<testcase name="cellFactoryCreatesCorrectCellTypes()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:cellFactoryCreatesCorrectCellTypes()]
+display-name: [Factory] CellFactory creates correct track cell types
+]]></system-out>
+</testcase>
+<testcase name="largerBlockadeCannotCaptureSmallerBlockade()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:largerBlockadeCannotCaptureSmallerBlockade()]
+display-name: Larger blockade cannot capture smaller blockade (Rule T-8)
+]]></system-out>
+</testcase>
+<testcase name="spawnCommandGrantsBonusRoll()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:spawnCommandGrantsBonusRoll()]
+display-name: [Command] SpawnPieceCommand grants bonus roll (roll of 6)
+]]></system-out>
+</testcase>
+<testcase name="blockMoveDistanceThreePieces()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:blockMoveDistanceThreePieces()]
+display-name: Block move distance with 3 pieces and 6 dice is 2
+]]></system-out>
+</testcase>
+<testcase name="captureCountIncrements()" classname="com.apiit.ludot.domain.PieceTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.PieceTest]/[method:captureCountIncrements()]
+display-name: Capture count increments correctly
+]]></system-out>
+</testcase>
+<testcase name="redSpawnsFromBaseWhenNoCaptureAvailable()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:redSpawnsFromBaseWhenNoCaptureAvailable()]
+display-name: [Red] Spawns from base on six when no capture is possible
+]]></system-out>
+</testcase>
+<testcase name="boardRegistryAlwaysReturnsSameInstance()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:boardRegistryAlwaysReturnsSameInstance()]
+display-name: [Singleton] BoardRegistry always returns the same instance
+]]></system-out>
+</testcase>
+<testcase name="pieceInBaseCannotBeEvaluated()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:pieceInBaseCannotBeEvaluated()]
+display-name: Piece in base cannot be evaluated for movement
+]]></system-out>
+</testcase>
+<testcase name="nullMoveSameInstance()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:nullMoveSameInstance()]
+display-name: [Null Object] Multiple calls to NullMove return same instance (Flyweight-like)
+]]></system-out>
+</testcase>
+<testcase name="blueCounterClockwisePrefersMysteryCellLanding()" classname="com.apiit.ludot.strategies.PlayerStrategyTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.strategies.PlayerStrategyTest]/[method:blueCounterClockwisePrefersMysteryCellLanding()]
+display-name: [Blue] Counter-clockwise piece prefers mystery cell landing
+]]></system-out>
+</testcase>
+<testcase name="multipleListenersAllReceiveEvents()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:multipleListenersAllReceiveEvents()]
+display-name: [Observer] Multiple listeners all receive the same event
+]]></system-out>
+</testcase>
+<testcase name="pieceEntersHomeStraightClockwiseWithCapture()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:pieceEntersHomeStraightClockwiseWithCapture()]
+display-name: Piece enters home straight when at approach with 1 capture clockwise
+]]></system-out>
+</testcase>
+<testcase name="homeStraightHasFiveCells()" classname="com.apiit.ludot.domain.BoardTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.domain.BoardTest]/[method:homeStraightHasFiveCells()]
+display-name: Home straight has 5 cells per colour
+]]></system-out>
+</testcase>
+<testcase name="clockwiseMovement5Steps()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:clockwiseMovement5Steps()]
+display-name: Clockwise movement from cell 0 by 5 steps reaches cell 5
+]]></system-out>
+</testcase>
+<testcase name="blockadeDirectionDeterminedByLongestDistance()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:blockadeDirectionDeterminedByLongestDistance()]
+display-name: Blockade direction determined by longest distance to home when pieces go opposite ways
+]]></system-out>
+</testcase>
+<testcase name="creatingBlockadeWithOnePieceThrowsException()" classname="com.apiit.ludot.rules.BlockadeRulesTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.BlockadeRulesTest]/[method:creatingBlockadeWithOnePieceThrowsException()]
+display-name: Creating Blockade with fewer than 2 pieces throws exception
+]]></system-out>
+</testcase>
+<testcase name="cellFactoryCreatesHomeStraightCells()" classname="com.apiit.ludot.patterns.DesignPatternsTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.patterns.DesignPatternsTest]/[method:cellFactoryCreatesHomeStraightCells()]
+display-name: [Factory] CellFactory creates home straight cells with correct type and colour
+]]></system-out>
+</testcase>
+<testcase name="pieceBlockedByOpponentBlockade()" classname="com.apiit.ludot.rules.MovementRulesTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.rules.MovementRulesTest]/[method:pieceBlockedByOpponentBlockade()]
+display-name: Piece blocked by opponent blockade stops before it (Rule T-3)
+]]></system-out>
+</testcase>
+<testcase name="mockDiceWithSixesSpawnsPiecesQuickly()" classname="com.apiit.ludot.usecases.GameUseCaseIntegrationTest" time="0.108">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.apiit.ludot.usecases.GameUseCaseIntegrationTest]/[method:mockDiceWithSixesSpawnsPiecesQuickly()]
+display-name: [Integration] MockDice with fixed sixes spawns pieces quickly
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
